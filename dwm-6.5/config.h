@@ -6,6 +6,8 @@ static const unsigned int gappx = 4;    /* gaps between windows */
 static const unsigned int snap = 32;    /* snap pixel */
 static const int showbar = 1;           /* 0 means no bar */
 static const int topbar = 1;            /* 0 means bottom bar */
+static const int vertpad = 10;          /* vertical padding of bar */
+static const int sidepad = 10;          /* horizontal padding of bar */
 static const int user_bh = 24; /* 0 means that dwm will calculate bar height, >=
                                  1 means dwm will user_bh as bar height */
 static const char *fonts[] = {"HackNerdFontMono:size=14"};
@@ -15,11 +17,12 @@ static const char gray2[] = "#282737"; // unfocused window border
 static const char gray3[] = "#585767";
 static const char gray4[] = "#282737";
 static const char col_purple[] = "#d5aeea";
-static const unsigned int baralpha = 0xd0;
+static const char col_mantle[] = "#e6e9ef";
+static const unsigned int baralpha = 0x30;
 static const unsigned int borderalpha = OPAQUE;
 static const char *colors[][3] = {
     /*               fg         bg         border   */
-    [SchemeNorm] = {gray3, col_purple, gray2},
+    [SchemeNorm] = {gray3, col_mantle, gray2},
     [SchemeSel] = {gray4, col_purple, col_purple},
 };
 
