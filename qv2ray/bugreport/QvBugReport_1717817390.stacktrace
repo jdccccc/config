@@ -1,0 +1,24 @@
+Signal: 1
+------- BEGIN QV2RAY CRASH REPORT -------
+Active Kernel Instances:
+[]
+Current Connection:
+{"connectionId":"xgeccghofmgw","groupId":"000000000000"}
+
+
+Active Connection Settings:
+{"creationDate":1717817132,"displayName":"V2 | 日本 01 | 解锁","lastConnected":1717817246,"lastUpdatedDate":1717817132,"stats":[{},{},{},{}]}
+
+
+Group:
+{"connections":["xffgcogycohg","xrirrekdlntl","tazfjgvcpjpd","vbxcqntgjhnh","dsvcbzkpaaui","plhfzpiebhae","fhqfjsszqzks","iwmxvscxbkya","wbbeopbrurjy","bmjtblhwwscr","tbufehqbbxjy","sqgdyvpdjbnj","dvxnuuymebox","xgeccghofmgw","hpxdmyrwdufz","sxkqpreqsbxs","bqpjwarpiycj","sakprlhomjeu","vpgkreimwwzn","nealrailgvpo","qusjzdglcaeg","ctasuhoulvwc","tjhrhgnngiuq","bvhuqegwdsdw","axujntzzjrpq","eimdlhxwxmdq","wcfboixhakvm","tgxusfbmctqi","pyhzamtfnibu","shubchjxqili","pkjnewsfwapu","vouhohpbjgpt","jdcxtsfbqqsd","dguuoyysjkcp","wkhixgslyofq","vfnjndzpwxim","zmsbruqruion","ekdacxwezegb","osmpvvhcalmw","pdubxfxahvos","keccyauwwnde","qfitbefjpqsc","ievxdolpmbwd","vbszsiavlced","aepmnpynyjuq","vqoujhkspugg","cevavzwzerse","ylnygxxpvdih","swlugfkunmje","illpezijscou","nebxhcforzsd","zhfpklnydxzc","ldjjgzwfiyma","deasrrycesrz","zlixdmyflkgi","oykysnmjnpmk","xuqqkwfbubgp","iazpfmdewlxg","qegfxpthajdk","aaivbwnfpufp","ghflzlmwuxfw","yxtbkxbzlykd","ffxruycwwmka","yszsjsdtbfjd","manmwrzuyaew","rerjfpaekskq","orwrrenmjwht","bfvlkfmfixld","cxgtkfsdscjj","gondflgclmco","olrbpwddcrvj","foilkvpdfdqu","tkmxgakmelbs","cjodzhkmqaur","yligtjzamfyt","grnxvntplowk"],"creationDate":1717816942,"displayName":"Default Group","isSubscription":true,"lastUpdatedDate":1717817133,"routeConfigId":"tvzcolelnivk","subscriptionOption":{"address":"HIDDEN","type":"simple_base64"}}
+
+
+Plugins:
+["Builtin Protocol Support","Qv2ray Core Workgroup","qvplugin_builtin_protocol","VMess, VLESS, SOCKS, HTTP, Shadowsocks, DNS, Dokodemo-door editor support"]
+["Builtin Subscription Support","Qv2ray Core Workgroup","builtin_subscription_support","Basic subscription support for Qv2ray"]
+
+
+GlobalConfig:
+{"advancedConfig":{},"autoStartBehavior":0,"autoStartId":{"groupId":"000000000000"},"config_version":14,"defaultRouteConfig":{"dnsConfig":{"servers":[{"address":"1.1.1.1"},{"address":"8.8.8.8"},{"address":"8.8.4.4"}]},"routeConfig":{"domainMatcher":"mph","domainStrategy":"AsIs","domains":{},"ips":{}}},"inboundConfig":{"socksSettings":{"port":1089}},"kernelConfig":{"v2AssetsPath_linux":"/home/jdc/Application/v2rayCore","v2CorePath_linux":"/home/jdc/Application/v2rayCore/v2ray"},"lastConnectedId":{"connectionId":"xgeccghofmgw","groupId":"000000000000"},"logLevel":3,"networkConfig":{},"outboundConfig":{},"pluginConfig":{"pluginStates":{"builtin_subscription_support":true,"qvplugin_builtin_protocol":true}},"uiConfig":{"graphConfig":{"colorConfig":{"$0":{"value1":{"B":63,"G":196,"R":134},"value2":{"B":255,"G":153,"R":50}},"$1":{"value1":{"B":63,"G":196,"R":134},"value2":{"B":255,"G":153,"R":50}},"$2":{"value1":{"B":240,"G":210,"R":0,"style":3},"value2":{"B":42,"G":220,"R":235,"style":3}}}},"recentConnections":[{"connectionId":"xgeccghofmgw","groupId":"000000000000"},{"connectionId":"vbxcqntgjhnh","groupId":"000000000000"}],"useDarkTheme":true},"updateConfig":{}}
+------- END OF QV2RAY CRASH REPORT -------

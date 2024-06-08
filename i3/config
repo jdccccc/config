@@ -8,7 +8,7 @@ font pango:DejaVuSansMNerdFontMono 10
 default_border pixel 1
 
 gaps inner 4
-gaps outer 6
+gaps outer 3
 
 # #546735 -> #81a1c1
 
@@ -79,6 +79,12 @@ bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
+
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+u move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+u scratchpad show
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -194,6 +200,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # startup applications
-exec --no-startup-id feh --bg-fill ~/config/nord-wallpapers/image-go-nord/ign-0011.png
-exec_always --no-startup-id picom --experimental-backends --active-opacity 0.7 -i 0.5 --config ~/config/picom/picom.conf
+exec --no-startup-id feh --bg-fill ~/config/nord-wallpapers/image-go-nord/ign-0008.png
+exec_always --no-startup-id picom --experimental-backends --active-opacity 0.95 -i 0.85 --config ~/config/picom/picom.conf
 #exec_always --no-starup-id bash ~/config/polybar/launch.sh

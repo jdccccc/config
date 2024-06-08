@@ -1,6 +1,6 @@
 local wezterm = require("wezterm")
 local config = {
-	font_size = 14,
+	font_size = 16,
 	font = wezterm.font("DejaVuSansMNerdFontMono", { weight = "Regular" }),
 	color_scheme = "nord",
 
