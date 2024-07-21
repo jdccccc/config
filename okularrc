@@ -1,0 +1,21 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAB3AAAAPvAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+XWAYLAND0 Window-Maximized 1920x1080=true
+XWAYLAND0 XPosition 1920x1080=50
+XWAYLAND0 YPosition 1920x1080=111
+eDP Height 1920x1080=1064
+eDP Width 1920x1080=1904
+eDP XPosition 1920x1080=8
+eDP YPosition 1920x1080=8
+
+[Recent Files]
+File1[$e]=$HOME/Study/LLM-neuron-codec/In-context Autoencoder for Context Compression in a LLM.pdf
+File2[$e]=$HOME/Study/multilingual-LLM/An Empirical Comparison of Vocabulary Expansion.pdf
+File3[$e]=$HOME/Study/multilingual-LLM/fine-tune/A Three-Pronged Approach to Cross-Lingual Adaptation with Multilingual.pdf
+Name1[$e]=In-context Autoencoder for Context Compression in a LLM.pdf
+Name2[$e]=An Empirical Comparison of Vocabulary Expansion.pdf
+Name3[$e]=A Three-Pronged Approach to Cross-Lingual Adaptation with Multilingual.pdf

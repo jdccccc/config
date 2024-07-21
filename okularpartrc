@@ -1,0 +1,6 @@
+[PageView]
+MouseMode=TextSelect
+ViewMode=FacingFirstCentered
+
+[Reviews]
+QuickAnnotationDefaultAction=1
