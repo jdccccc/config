@@ -46,7 +46,7 @@ floating_modifier $mod
 bindsym $mod+Return; exec wezterm
 bindsym $mod+Shift+f; exec /usr/bin/flameshot gui
 bindsym $mod+Shift+c workspace $ws5; exec ~/Application/clash-verge_1.3.8_amd64.AppImage
-
+# bindsym $mod+Shift+z; exec zotero
 # kill focused window
 bindsym $mod+c kill
 
@@ -204,5 +204,6 @@ exec --no-startup-id nm-applet
 # startup applications
 exec --no-startup-id feh --bg-fill ~/config/polybar/nord-theme/wallpaper.jpg
 exec_always --no-startup-id picom --experimental-backends --active-opacity 0.95 -i 0.85 --config ~/config/picom/picom.conf
+exec --no-startup-id ~/Application/clash-verge_1.3.8_amd64.AppImage
 # exec_always --no-startup-id picom --config ~/config/picom/picom.conf
 #exec_always --no-starup-id bash ~/config/polybar/launch.sh
