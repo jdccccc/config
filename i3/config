@@ -7,8 +7,8 @@ font pango:DejaVuSansMNerdFontMono 10
 
 default_border pixel 1
 
-gaps inner 4
-gaps outer 3
+gaps inner 3
+gaps outer -2
 
 # #546735 -> #81a1c1
 
@@ -180,11 +180,29 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+bindsym $mod+b bar mode toggle
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#        status_command i3status
-#}
+bar {
+        # status_command i3status
+        status_command i3blocks
+
+        position top
+
+        font pango:DejaVuSansMNerdFontMono 16
+
+        colors {
+                background #2E3440cf
+                statusline #F8F8F2cf
+                separator  #F8F8F2cf
+
+                focused_workspace #BFBFBFff #81A1C1ff #F8F8F2ff
+                # active_workspace #2E344000
+                inactive_workspace #2E3440ff #2E3440ef #BFBFBFff
+                # urgent_workspace #2E344000
+                # binding_mode #2E344000
+        } 
+}
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
