@@ -5,20 +5,20 @@ set $mod Mod1
 # is used in the bar {} block below.
 font pango:DejaVuSansMNerdFontMono 10
 
-default_border pixel 1
+default_border pixel 3
 
-gaps inner 3
-gaps outer -2
+# gaps inner 3
+# gaps outer -2
 
 # #546735 -> #81a1c1
 
 # class                 border  backgr. text    indicator child_border
 
-client.focused          #81a1c1 #81a1c1 #F8F8F2 #81a1c1   #81a1c1
+client.focused          #81a1c1 #81a1c1 #F8F8F2 #81a1c1   #8fbcbb
 
 client.focused_inactive #2E3440 #2E3440 #F8F8F2 #2E3440   #2E3440
 
-client.unfocused        #2E3440 #2E3440 #BFBFBF #2E3440   #2E3440
+client.unfocused        #2E3440 #2E3440 #BFBFBF #2E3440   #4c566a
 
 client.urgent           #2E3440 #FF5555 #F8F8F2 #FF5555   #FF5555
 
@@ -221,7 +221,8 @@ exec --no-startup-id nm-applet
 
 # startup applications
 exec --no-startup-id feh --bg-fill ~/config/polybar/nord-theme/wallpaper.jpg
-exec_always --no-startup-id picom --experimental-backends --active-opacity 0.95 -i 0.85 --config ~/config/picom/picom.conf
+# exec_always --no-startup-id picom --experimental-backends --active-opacity 0.95 -i 0.85 --config ~/config/picom/picom.conf
+exec_always --no-startup-id picom
 exec --no-startup-id ~/Application/clash-verge_1.3.8_amd64.AppImage
 # exec_always --no-startup-id picom --config ~/config/picom/picom.conf
 #exec_always --no-starup-id bash ~/config/polybar/launch.sh
