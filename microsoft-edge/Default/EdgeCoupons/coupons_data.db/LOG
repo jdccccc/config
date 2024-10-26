@@ -1,3 +1,6 @@
-2024/08/13-20:30:06.374 1c00 Reusing MANIFEST /home/jdc/config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
-2024/08/13-20:30:06.374 1c00 Recovering log #3
-2024/08/13-20:30:06.374 1c00 Reusing old log /home/jdc/config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000003.log 
+2024/08/23-12:14:08.010 8734 Reusing MANIFEST /home/jdc/config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2024/08/23-12:14:08.010 8734 Recovering log #3
+2024/08/23-12:14:08.011 8734 Reusing old log /home/jdc/config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000003.log 
+2024/08/23-12:14:08.047 8735 Level-0 table #5: started
+2024/08/23-12:14:08.052 8735 Level-0 table #5: 635749 bytes OK
+2024/08/23-12:14:08.058 8735 Delete type=0 #3

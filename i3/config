@@ -46,7 +46,8 @@ floating_modifier $mod
 bindsym $mod+Return; exec wezterm
 bindsym $mod+Shift+f; exec /usr/bin/flameshot gui
 bindsym $mod+Shift+c workspace $ws5; exec ~/Application/clash-verge_1.3.8_amd64.AppImage
-# bindsym $mod+Shift+z; exec zotero
+bindsym $mod+Shift+z; exec bash -c "/home/jdc/Application/Zotero_linux-x86_64/zotero"
+bindsym $mod+Shift+v; exec bash -c "vivado"
 # kill focused window
 bindsym $mod+c kill
 
